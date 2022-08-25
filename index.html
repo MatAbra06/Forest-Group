@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="pl">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="keywords" content="park, zieleń, drzewa, rodzinna, rodzinny spacer, super przygoda">
-    <meta name="description"
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="keywords" content="park, zieleń, drzewa, rodzinna, rodzinny spacer, super przygoda">
+        <meta name="description"
         content="Czy myślałeś ostatnio nad rodzinnym niedzielnym wypadem w atrakcyjne miejsce? Jeżeli tak to dobrze trafiłeś. Forest to park umieszczony niedaleko ciebie! Co byś zrobił gdybyś dowiedział się, że niezapomniane bezcenne rodzinne chwile w krajobrazie zieleni i natury jest odległe godzinę drogi od ciebie?">
-    <meta name="author" content="Mateusz Abrahamowicz">
-    <title>Forest - przepiękny park z wieloma atrakcjami</title>
+        <meta name="author" content="Mateusz Abrahamowicz">
+        <title>Forest - przepiękny park z wieloma atrakcjami</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        
+        <script src="https://kit.fontawesome.com/4bb18e892d.js" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="./dist/css/main.min.css">
+    </head>
+    
+    <body>
+        <div id="home" class="scroll-item"></div>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap" rel="stylesheet">
-
-<script src="https://kit.fontawesome.com/4bb18e892d.js" crossorigin="anonymous"></script>
-
-<link rel="stylesheet" href="./dist/css/main.min.css">
-</head>
-
-<body>
-
-    <nav class="nav-desktop">
-        <div class="wrapper">
-            <div class="nav-container">
+        <nav class="nav-desktop">
+            <div class="wrapper">
+                <div class="nav-container">
                 <div class="logo">
                     <a href="#" class="main-link">
                         <i class="fa-solid fa-tree logo-img"></i>
@@ -33,7 +34,7 @@
                     </a>
                 </div>
                 <div class="links">
-                    <a href="#" class="nav-link">
+                    <a href="#home" class="nav-link active">
                         <div class="touch-space">Home</div>
                     </a>
                     <a href="#about-us" class="nav-link">
@@ -66,7 +67,7 @@
         </div>
         <div class="nav-page">
             <div class="links">
-                <a href="#" class="nav-link">Home</a>
+                <a href="#home" class="nav-link">Home</a>
                 <a href="#about-us" class="nav-link">O nas</a>
                 <a href="#offers" class="nav-link">Oferta</a>
                 <a href="kontakt.html" class="nav-link">Kontakt</a>
@@ -74,7 +75,7 @@
         </div>
     </nav>
 
-    <header class="header">
+    <header class="header" >
         <div class="header-shadow"></div>
         <div class="wrapper">
             <div class="text-container">
@@ -86,7 +87,8 @@
 
     <main>
 
-        <section class="section about-us" id="about-us">
+
+        <section class="section about-us scroll-item" id="about-us">
             <div class="wrapper">
                 <h2 class="section-title">O nas</h2>
                 <div class="content">
@@ -115,7 +117,7 @@
             </div>
         </section>
 
-        <section class="section offers" id="offers">
+        <section class="section offers scroll-item" id="offers">
             <div class="wrapper">
                 <h2 class="section-title">Oferta</h2>
                 <p class="section-description">Wybierz jedną z naszych wspaniałych ofert!</p>

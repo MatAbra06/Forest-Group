@@ -12,12 +12,13 @@
     <title>Forest - oferta wyjazdu dla ciebie</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
 
-<script src="https://kit.fontawesome.com/4bb18e892d.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4bb18e892d.js" crossorigin="anonymous"></script>
 
-<link rel="stylesheet" href="./dist/css/main.min.css">
+    <link rel="stylesheet" href="./dist/css/main.min.css">
 </head>
 
 <body>
@@ -87,25 +88,47 @@
 
         <section class="section faq">
             <div class="wrapper">
-                <div class="question question-one">
-                    <div class="text">
-                        <h3>W jaki sposób mogę dokonać płatności?</h3>
-                        <p>Płatności można dokonać na miejscu - w bramkach w parku. Ale płatność online również wchodzi
-                            w grę. Przelew prosimy wysłać na numer konta: 15 7428 6789 0130 7531 2314 3143, a obok
-                            przykład jak powinien wyglądać przelew:</p>
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h2>Oto najczęściej zadawane pytania:</h2>
+                        <button class="btn btn-contact">Skontaktuj się z nami</button>
                     </div>
-                    <img src="../dist/img/Screenshot_3.png" alt="pokazanie jak ma wyglądać przelew">
-                </div>
-                <div class="question question-two">
-                    <div class="text">
-                        <h3>Czy w gre wchodzi negocjacja ceny biletów?</h3>
-                        <p>Niestety nie ma takiej możliwości, cena jest ustalona na sztywno, a wszelkie próby podjęcia negocjacji z kasjerem na bramkach, czy na stronie internetowej zakończą się niepowodzeniem ponieważ na cene biletu wpływa wiele czynników niezależnych od nas. Obniżenie ceny biletu mogłoby doprowadzić do strat finansowych Forest Group sp z.o.o, co w dalszej perspektywie mogłoby skutkować ogłoszeniem upadłości działalności.</p>
-                    </div>
-                </div>
-                <div class="question question-three">
-                    <div class="text">
-                        <h3>Czy jest tam jakaś restauracja lub hotel?</h3>
-                        <p>Niestety nie posiadamy w asortymencie takich dobroci :( Ale obok zamieszczamy mape z zaznaczonymi hotelami i restauracjami w pobliżu parku</p>
+                    <div class="items-box">
+                        <div class="accordion-item">
+                            <div class="box">
+                                <p class="question">Czy mogę zapłacić za bilet online?</p>
+                                <button class="btn-toggle" data-number="0"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                            <p class="answer">Tak, jest to możliwe na tej stronie: link</p>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="box">
+                                <p class="question">Czy jest możliwość zejścia z ceny biletu?</p>
+                                <button class="btn-toggle" data-number="1"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                            <p class="answer">Niestety nie przewidujemy opcji negocjacji ceny biletów</p>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="box">
+                                <p class="question">Gdzie można tam coś zjeść?</p>
+                                <button class="btn-toggle" data-number="2"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                            <p class="answer">W pobliżu parku jest wiele restauracji, także głodny nikt nie będzie :)</p>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="box">
+                                <p class="question">Czy ten park jest bezpiecznym miejscem?</p>
+                                <button class="btn-toggle" data-number="3"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                            <p class="answer">Tak jak najbardziej</p>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="box">
+                                <p class="question">Czy jest możliwość zostania na noc?</p>
+                                <button class="btn-toggle" data-number="4"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                            <p class="answer">Niestety ale park na noc jest zamykany, więc nie ma takiej możliwości</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -115,38 +138,38 @@
     </main>
 
     <footer class="footer">
-    <div class="wrapper">
-        <div class="logo">
-            <a href="#" class="main-link">
-                <i class="fa-solid fa-tree logo-img"></i>
-                <p>Forest</p>
-            </a>
-        </div>
-        <div class="sitemap">
-            <div class="column">
-                <h3>O nas</h3>
-                <p>Historia</p>
-                <p>Parki</p>
-                <p>Opinie</p>
+        <div class="wrapper">
+            <div class="logo">
+                <a href="#" class="main-link">
+                    <i class="fa-solid fa-tree logo-img"></i>
+                    <p>Forest</p>
+                </a>
             </div>
+            <div class="sitemap">
+                <div class="column">
+                    <h3>O nas</h3>
+                    <p>Historia</p>
+                    <p>Parki</p>
+                    <p>Opinie</p>
+                </div>
 
-            <div class="column">
-                <h3>Nasza firma</h3>
-                <p>Praca</p>
-                <p>Kadry</p>
-                <p>Zarząd</p>
-            </div>
+                <div class="column">
+                    <h3>Nasza firma</h3>
+                    <p>Praca</p>
+                    <p>Kadry</p>
+                    <p>Zarząd</p>
+                </div>
 
-            <div class="column">
-                <h3>Dokumenty</h3>
-                <p>Wnioski</p>
-                <p>Rezerwacje</p>
+                <div class="column">
+                    <h3>Dokumenty</h3>
+                    <p>Wnioski</p>
+                    <p>Rezerwacje</p>
+                </div>
             </div>
         </div>
-    </div>
-    <hr>
-    <p class="footer-text"> &copy; 2022 Forest Group Company Ltd.</p>
-</footer>
+        <hr>
+        <p class="footer-text"> &copy; 2022 Forest Group Company Ltd.</p>
+    </footer>
 
     <script src="./dist/js/main.min.js"></script>
 </body>
